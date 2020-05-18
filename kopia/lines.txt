@@ -62,4 +62,4 @@
 344:195:karol     1811  1.0  0.2 1867148 19984 ?       S<l  19:15   2:12 /usr/bin/pulseaudio --start --log-target=syslog
 345:251:karol     2444  0.0  2.0 1344296 168744 tty2   SLl+ 19:16   0:02 /usr/bin/gnome-software --gapplication-service
 346:293:karol     8107  0.0  0.6 854320 52200 ?        Sl   21:52   0:01 /usr/bin/nautilus --gapplication-service
-347:297:karol     8206  0.0  0.0  18172   984 pts/0    S+   21:54   0:00 /usr/bin/pager
+i347:297:karol     8206  0.0  0.0  18172   984 pts/0    S+   21:54   0:00 /usr/bin/pager
