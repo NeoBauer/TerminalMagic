@@ -1,0 +1,65 @@
+111:root      1054  0.0  0.2 178864 17380 ?        Ssl  19:15   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+116:message+  1070  0.0  0.0  51632  6160 ?        Rs   19:15   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+131:root      1228  0.0  0.2 195576 20180 ?        Ssl  19:15   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+142:gdm       1363  0.0  0.0  50280  4564 ?        Ss   19:15   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+145:gdm       1373  0.0  0.0  49924  3772 ?        S    19:15   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+147:gdm       1384  0.0  2.3 3435712 188396 tty1   Sl+  19:15   0:06 /usr/bin/gnome-shell
+148:gdm       1392  0.0  0.2 1326024 16740 ?       Ssl  19:15   0:00 /usr/bin/pulseaudio --daemonize=no
+177:whoopsie  1562  0.0  0.1 388460 12788 ?        Ssl  19:15   0:00 /usr/bin/whoopsie -f
+183:karol     1653  0.0  0.1 289600  8120 ?        Sl   19:15   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+186:karol     1665  0.0  0.0  53116  7728 ?        Ss   19:15   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+188:karol     1763  0.0  0.0  11300   316 ?        Ss   19:15   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+190:karol     1770  0.0  0.0  49924  4212 ?        S    19:15   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+192:karol     1789  8.9  3.9 3766320 318716 tty2   Rl+  19:15  18:03 /usr/bin/gnome-shell
+195:karol     1811  1.0  0.2 1867148 19984 ?       S<l  19:15   2:12 /usr/bin/pulseaudio --start --log-target=syslog
+251:karol     2444  0.0  2.0 1344296 168744 tty2   SLl+ 19:16   0:02 /usr/bin/gnome-software --gapplication-service
+293:karol     8107  0.0  0.6 854320 52200 ?        Sl   21:52   0:01 /usr/bin/nautilus --gapplication-service
+297:karol     8206  0.0  0.0  18172   984 pts/0    S+   21:54   0:00 /usr/bin/pager
+111:root      1054  0.0  0.2 178864 17380 ?        Ssl  19:15   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+116:message+  1070  0.0  0.0  51632  6160 ?        Rs   19:15   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+131:root      1228  0.0  0.2 195576 20180 ?        Ssl  19:15   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+142:gdm       1363  0.0  0.0  50280  4564 ?        Ss   19:15   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+145:gdm       1373  0.0  0.0  49924  3772 ?        S    19:15   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+147:gdm       1384  0.0  2.3 3435712 188396 tty1   Sl+  19:15   0:06 /usr/bin/gnome-shell
+148:gdm       1392  0.0  0.2 1326024 16740 ?       Ssl  19:15   0:00 /usr/bin/pulseaudio --daemonize=no
+177:whoopsie  1562  0.0  0.1 388460 12788 ?        Ssl  19:15   0:00 /usr/bin/whoopsie -f
+183:karol     1653  0.0  0.1 289600  8120 ?        Sl   19:15   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+186:karol     1665  0.0  0.0  53116  7728 ?        Ss   19:15   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+188:karol     1763  0.0  0.0  11300   316 ?        Ss   19:15   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+190:karol     1770  0.0  0.0  49924  4212 ?        S    19:15   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+192:karol     1789  8.9  3.9 3766320 318716 tty2   Rl+  19:15  18:03 /usr/bin/gnome-shell
+195:karol     1811  1.0  0.2 1867148 19984 ?       S<l  19:15   2:12 /usr/bin/pulseaudio --start --log-target=syslog
+251:karol     2444  0.0  2.0 1344296 168744 tty2   SLl+ 19:16   0:02 /usr/bin/gnome-software --gapplication-service
+293:karol     8107  0.0  0.6 854320 52200 ?        Sl   21:52   0:01 /usr/bin/nautilus --gapplication-service
+297:karol     8206  0.0  0.0  18172   984 pts/0    S+   21:54   0:00 /usr/bin/pager
+317:[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lines.txt" 17L, 2275C[1;1H111:root      1054  0.0  0.2 178864 17380 ?[8CSsl  19:15   0:00 /usr/bin/pyy[2;1Hthon3 /usr/bin/networkd-dispatcher --run-startup-triggers
+318:116:message+  1070  0.0  0.0  51632  6160 ?[8CRs   19:15   0:00 /usr/bin/dbb[4;1Hus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation  [5;1H--syslog-only
+319:131:root      1228  0.0  0.2 195576 20180 ?[8CSsl  19:15   0:00 /usr/bin/pyy[7;1Hthon3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signn[8;1Hal
+320:142:gdm[7C1363  0.0  0.0  50280  4564 ?[8CSs   19:15   0:00 /usr/bin/dbb[10;1Hus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activationn[11;1H --syslog-only
+321:145:gdm[7C1373  0.0  0.0  49924  3772 ?[8CS    19:15   0:00 /usr/bin/dbb[13;1Hus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork  [14;1H--print-address 3
+322:147:gdm[7C1384  0.0  2.3 3435712 188396 tty1   Sl+  19:15   0:06 /usr/bin/gnn[16;1Home-shell
+323:148:gdm[7C1392  0.0  0.2 1326024 16740 ?[7CSsl  19:15   0:00 /usr/bin/puu[18;1Hlseaudio --daemonize=no
+324:177:whoopsie  1562  0.0  0.1 388460 12788 ?[8CSsl  19:15   0:00 /usr/bin/whh[20;1Hoopsie -f
+325:183:karol     1653  0.0  0.1 289600  8120 ?[8CSl   19:15   0:00 /usr/bin/gnn[22;1Home-keyring-daemon --daemonize --login
+326:186:karol     1665  0.0  0.0  53116  7728 ?[8CSs   19:15   0:01 /usr/bin/db[23;1H[94m@@@                                                                             [m[24;63H1,1[11CTop[1;1H[?25h[?25l[24;53Hl[1;1H[24;53H [1;2H[24;65H2[1;2H[?25h[?25l[24;53Hs[1;2H[24;53H [1;2H[24;53Hcl[1;2H[24;53H  [1;2H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,2[11CTop[1;3H:root      1054  0.0  0.2 178864 17380 ? [7CSsl  19:15   0:00 /usr/bin/pytt[2;1Hhon3 /usr/bin/networkd-dispatcher --run-startup-triggers[2;57H[K[1;2H[?25h[?25ll1:root      1054  0.0  0.2 178864 17380 ?[7C Ssl  19:15   0:00 /usr/bin/pyy[2;1Hthon3 /usr/bin/networkd-dispatcher --run-startup-triggers[24;65H3[1;3H[?25h[?25ls1:root      1054  0.0  0.2 178864 17380 ?[7C Ssl  19:15   0:00 /usr/bin/pp[2;1Hython3 /usr/bin/networkd-dispatcher --run-startup-triggers[24;65H4[1;4H[?25h[?25l[24;1H[K[24;63H1,3[11CTop[1;3H[?25h[?25l[24;1HType  :qa!  and press <E...all changes and exit Vim[24;63H[K[24;63H1,3[11CTop[1;3H[?25h[?25l[24;53Hl[1;3H[24;53H [1;4H[24;65H4[1;4H[?25h[?25l[24;53Hq[1;4H[?25h[?25l[24;54H:[1;4H[24;53H  [1;4H[24;1H[K[24;1H:[?2004h[15;1H[7mlines.txt [+]                                                 1,4            Top[m[16;1H[94m:[m[38;5;130mtabe[m fibonacci[38;5;130m.[mhpp
+327:[94m:[m[38;5;130mtabf[m[17;6H[K[18;1H[94m:[m[38;5;130mtabp[m[18;6H[K[19;1H[94m:[m[38;5;130mtabn[m[19;6H[K[20;1H[94m:[m[38;5;130mw[m[20;3H[K[21;1H[94m:[m[38;5;130mq[m[21;3H[K[22;1H[94m:[m[22;2H[K[23;1H[1m[7m[Command Line]                                                37,0-1         Bot[22;2H[?25h[?25l[m[24;70H:q[22;2H[?25h[?25l[24;72H;[22;2H[24;70H   [22;2H[?25h[?25l[24;70H:[22;2H[24;1H[K[24;1H:[?2004h[?25hq[?25l[?25h[?25l[22;2H[24;1H[K[15;1H147:gdm       1384  0.0  2.3 3435712 188396 tty1   Sl+  19:15   0:06 /usr/bin/gnn[16;1Home-shell[16;10H[K[17;1H148:gdm[7C1392  0.0  0.2 1326024 16740 ?[7CSsl  19:15   0:00 /usr/bin/puu[18;1Hlseaudio --daemonize=no
+328:177:whoopsie  1562  0.0  0.1 388460 12788 ?[8CSsl  19:15   0:00 /usr/bin/whh[20;1Hoopsie -f
+329:183:karol     1653  0.0  0.1 289600  8120 ?[8CSl   19:15   0:00 /usr/bin/gnn[22;1Home-keyring-daemon --daemonize --login
+330:186:karol     1665  0.0  0.0  53116  7728 ?        Ss   19:15   0:01 /usr/bin/db[23;1H[94m@@@                                                                             [m[24;63H1,4[11CTop[1;4H[?25h[?25l[24;53Hq[1;4H[?25h[?25l[24;54He[1;4H[24;1H[1mrecording @e[m[24;53H[K[24;63H1,4[11CTop[1;4H[?25h[?25l[24;53Hx[1;4H[24;53H [1;4H[24;53Hdl[1;4H[24;53H  [1;4H:root      1054  0.0  0.2 178864 17380 ? [7CSsl  19:15   0:00 /usr/bin/pyy[2;1Hthon3 /usr/bin/networkd-dispatcher --run-startup-triggers[2;58H[K[1;4H[?25h[?25l[24;53Hi[1;4H[24;53H [1;4H[24;1H[1m--c INSERT --[m [1mrecording @e[m[24;63H[K[24;63H1,4[11CTop[1;4H[?25h[?25lt:root      1054  0.0  0.2 178864 17380 ?[7C Ssl  19:15   0:00 /usr/bin/pp[2;1Hython3 /usr/bin/networkd-dispatcher --run-startup-triggers[24;65H5[1;5H[?25h[24;1H[1mrecording @er[m[24;13H[K[1;4H[?25l[24;53H^[[1;4H[24;53H  [1;5H[24;63H1,4[11CTop[1;4H[?25h[?25l[24;53H^[[1;4H[24;53H  [1;4H[24;53H^[[1;4H[24;53H  [1;4H[?25h[?25l[24;53H^[[1;4H[24;53H  [1;4H[24;53H^[[1;4H[24;53H  [1;4H[?25h[?25l[24;53H^[[1;4H[24;53H  [1;4H[24;53H^[[1;4H[24;53H  [1;4H[?25h[?25l[24;53H:[1;4H[24;1H[K[24;1H:[?2004h[?25hq[?25l[?25h[?25l[97m[41mE37: No write since last change (add ! to override)[?2004h[1;4H[?2004l[?2004h[m[24;1H[1mrecording @e[m[24;13H[K[24;63H1,4[11CTop[1;4H[?25h[?25l[24;53Ha[1;4H[24;53H [1;5H[24;1H[1m--c INSERT --[m [1mrecording @e[m[24;63H[K[24;63H1,5[11CTop[1;5H[?25h[?25l[24;1H[1mrecording @er[m[24;13H[K[24;63H1,4[11CTop[1;4H[?25h[?25l[24;53H^Z[1;4H[24;1H
+331:[?2004l[?1l>[?25h[?1049l[23;0;0t[?2004l111:root      1054  0.0  0.2 178864 17380 ?        Ssl  19:15   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+332:116:message+  1070  0.0  0.0  51632  6160 ?        Rs   19:15   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+333:131:root      1228  0.0  0.2 195576 20180 ?        Ssl  19:15   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+334:142:gdm       1363  0.0  0.0  50280  4564 ?        Ss   19:15   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+335:145:gdm       1373  0.0  0.0  49924  3772 ?        S    19:15   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+336:147:gdm       1384  0.0  2.3 3435712 188396 tty1   Sl+  19:15   0:06 /usr/bin/gnome-shell
+337:148:gdm       1392  0.0  0.2 1326024 16740 ?       Ssl  19:15   0:00 /usr/bin/pulseaudio --daemonize=no
+338:177:whoopsie  1562  0.0  0.1 388460 12788 ?        Ssl  19:15   0:00 /usr/bin/whoopsie -f
+339:183:karol     1653  0.0  0.1 289600  8120 ?        Sl   19:15   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+340:186:karol     1665  0.0  0.0  53116  7728 ?        Ss   19:15   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+341:188:karol     1763  0.0  0.0  11300   316 ?        Ss   19:15   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+342:190:karol     1770  0.0  0.0  49924  4212 ?        S    19:15   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+343:192:karol     1789  8.9  3.9 3766320 318716 tty2   Rl+  19:15  18:03 /usr/bin/gnome-shell
+344:195:karol     1811  1.0  0.2 1867148 19984 ?       S<l  19:15   2:12 /usr/bin/pulseaudio --start --log-target=syslog
+345:251:karol     2444  0.0  2.0 1344296 168744 tty2   SLl+ 19:16   0:02 /usr/bin/gnome-software --gapplication-service
+346:293:karol     8107  0.0  0.6 854320 52200 ?        Sl   21:52   0:01 /usr/bin/nautilus --gapplication-service
+347:297:karol     8206  0.0  0.0  18172   984 pts/0    S+   21:54   0:00 /usr/bin/pager
